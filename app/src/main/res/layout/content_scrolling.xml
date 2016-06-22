@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mathcamp.example.app.fiberglass.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@android:drawable/ic_menu_call"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50sp"/>
+
+                <TextView
+                    android:id="@+id/phoneText"
+                    android:layout_marginLeft="16dp"
+                    android:text="Phone number goes here"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@android:drawable/ic_dialog_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50sp"/>
+
+                <TextView
+                    android:id="@+id/emailText"
+                    android:layout_marginLeft="16dp"
+                    android:text="Email goes here"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.v4.widget.NestedScrollView>
