@@ -1,8 +1,8 @@
-# Fiberglass
+![fiberglass logo](logo.png | width=720)
 
-![fiberglass logo](logo.png)
+> Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties
 
-Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties
+---
 
 ## Idea
 
