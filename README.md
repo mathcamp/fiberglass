@@ -1,7 +1,6 @@
 # Fiberglass
 
-![fiberglass app icon](http://i.imgur.com/2Z7oYMX.png)
-![fiberglass logo](http://imgur.com/NHmDzWW.png)
+![fiberglass logo](logo.png)
 
 Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties
 
@@ -67,7 +66,9 @@ fun DateSavable(namespace: String, ctx: Context): Savable<Date> =
 
 See the `app` module for a sample app
 
-![screenshot](http://i.imgur.com/3cp5jI7.png)
+![fiberglass app icon](icon.png)
+
+![screenshot](screenshot.png)
 
 ## Default values
 
