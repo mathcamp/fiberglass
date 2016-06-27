@@ -1,4 +1,4 @@
-![fiberglass logo](logo.png | width=720)
+<img src="logo.png" width="720"/>
 
 > Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties
 
