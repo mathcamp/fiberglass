@@ -41,7 +41,7 @@ val greetings = "Hello ${u.name}"
 u.name = "Brandon"
 ```
 
-If you want to save custom a custom data type, you just have to provide a way to serialize it to SharedPreferences
+If you want to save custom a custom data type, you just have to write-to and read-from SharedPreferences
 
 ```kotlin
 private object DateGetterSetter {
