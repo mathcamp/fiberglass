@@ -1,7 +1,7 @@
 # Fiberglass
 
 ![fiberglass app icon](http://i.imgur.com/2Z7oYMX.png)
-![fiberglass logo](fiberglass.svg)
+![fiberglass logo](http://imgur.com/NHmDzWW.png)
 
 Easy lightweight SharedPreferences library for Android in Kotlin using delegated properties
 
