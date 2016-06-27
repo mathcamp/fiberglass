@@ -4,7 +4,6 @@ import android.content.Context
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.EditText
@@ -75,8 +74,6 @@ class MainActivity : AppCompatActivity() {
   }
 
   override fun onOptionsItemSelected(item: MenuItem): Boolean {
-    Log.d(MainActivity::class.java.name, "Selected item $item")
-    Log.d(MainActivity::class.java.name, "Home is ${android.R.id.home}")
     return when (item.itemId) {
       android.R.id.home -> {
         done()
